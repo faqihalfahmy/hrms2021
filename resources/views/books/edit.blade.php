@@ -91,7 +91,7 @@
 <script>
     $('#categories').select2({
         ajax: {
-            url: 'http://localhost/larashop/ajax/categories/search',
+            url: 'http://hrms2021.ptppm.id/ajax/categories/search',
             processResults: function (data) {
                 return {
                     results: data.map(function (item) {
